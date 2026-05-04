@@ -1,0 +1,8 @@
+import qrcode
+qr=qrcode.QRCode()
+a = "chicksxoxo!!!"
+qr.add_data(a)
+r.make(fit=True)
+res=qr.make_image(fill,color="black"back_)
+res.save("chikky.png")
+print("created successfully")
